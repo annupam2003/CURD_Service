@@ -1,0 +1,12 @@
+create table Blogs ( Id int identity(1,1),DateIs datetime default(getdate()),IsActive bit default(1),Name varchar(100),Title varchar(500),Details varchar(max));
+insert into Blogs(Name,Title,Details) values('Kumar','Blog','This is my Blog');
+insert into Blogs(Name,Title,Details) values('Kumar','Blog','This is my Blog');
+insert into Blogs(Name,Title,Details) values('Kumar','Blog','This is my Blog');
+insert into Blogs(Name,Title,Details) values('Kumar','Blog','This is my Blog');
+insert into Blogs(Name,Title,Details) values('Kumar','Blog','This is my Blog');
+insert into Blogs(Name,Title,Details) values('Kumar','Blog','This is my Blog');
+insert into Blogs(Name,Title,Details) values('Kumar','Blog','This is my Blog');
+insert into Blogs(Name,Title,Details) values('Kumar','Blog','This is my Blog');
+insert into Blogs(Name,Title,Details) values('Kumar','Blog','This is my Blog');
+insert into Blogs(Name,Title,Details) values('Kumar','Blog','This is my Blog');
+Select * from Blogs;
