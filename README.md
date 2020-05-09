@@ -1,2 +1,2 @@
 # CURD_Service
-This is a create CURD Operation through angular 9
+CURD Operation Angular 9 Using Asp.net Core WebApi
